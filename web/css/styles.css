@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 may. 2021, 10:59:07
+    Author     : PC
+*/
+
+.cont {
+    /* background-image: url(background3.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+    background-image: url(../img/bck5.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contenedor {
+    width: 50%;
+    height: 50%;
+    /* background-color: rgba(255, 255, 255, 0.35); */
+    /* backdrop-filter: blur(4px); */
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.842);
+    display: flex;
+
+}
+
+@media screen and (max-width: 376px){
+    .contenedor{
+        height: 45% !important;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .contenedor{
+        height: 60% !important;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .contenedor{
+        width: 80%;
+        height: 50% !important;
+    }
+}
+
+@media screen and (max-width: 360px ) {
+    .contenedor {
+        width: 80%;
+        height: 60% !important;
+    }
+}
+
+
+.imagen-log{
+    /* background-color: #AAABAF; */
+    /* background-color: black; */
+    border-right-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+@media screen and (max-width: 1260px) {
+    .img-logo{
+        width: 60% !important;
+        height: 40% !important;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .imagen-log{
+        display: none;
+    }
+    .forms{
+        width: 100% !important;
+        margin-left: 10%;
+    }
+}
+
+.forms{
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center;
+    width: 50%;
+}
+
+.inputs {
+    width: 90%;
+}
+
+.btnPrimario { 
+    width: 50%;
+    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.442);
+}
+
+.img-logo{
+    width: 80%;
+    height: 50%;
+}
